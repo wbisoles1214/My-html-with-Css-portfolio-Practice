@@ -1,0 +1,132 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
+  }
+  
+  /* Style the header */
+  header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+  }
+  
+  /* Style the main navigation */
+  nav {
+	background-color: #ccc;
+	padding: 10px;
+	text-align: center;
+  }
+  
+  nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  nav li {
+	display: inline-block;
+	margin: 0 10px;
+  }
+  
+  nav a {
+	display: block;
+	padding: 10px;
+	color: #333;
+	text-decoration: none;
+  }
+  
+  nav a:hover {
+	background-color: #333;
+	color: #fff;
+  }
+  
+  /* Style the about section */
+  #about {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  #about img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 20px auto;
+  }
+  
+  /* Style the work section */
+  #work {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  #work ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  #work li {
+	margin-bottom: 10px;
+  }
+  
+  #work a {
+	color: #333;
+	text-decoration: none;
+  }
+  
+  #work a:hover {
+	text-decoration: underline;
+  }
+  
+  /* Style the contact section */
+  #contact {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  #contact label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  #contact input,
+  #contact textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	font-size: 16px;
+  }
+  
+  #contact input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 16px;
+  }
+  
+  #contact input[type="submit"]:hover {
+	background-color: #fff;
+	color: #333;
+  }
+  
+  /* Style the back to home link */
+  #back-home {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  #back-home a {
+	color: #333;
+	text-decoration: none;
+  }
+ 
